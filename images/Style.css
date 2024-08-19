@@ -1,0 +1,26 @@
+.banner-img{background-image:url("banner.png") ;
+background-size: cover;
+height:400px;
+width:100%;
+background-repeat: no repeat;
+background-position: center;
+}
+.accordion-button::after{background-image: url("Plus.png");}
+.accordion-button:not(.collapsed)::after{background-image: url("Minus2.png");}
+.quetion-section > div{flex:1;}
+
+.contact-description > div{flex:1;}
+
+@media screen and (max-width:576px){
+ .banner-btn{
+margin-top:20px;
+position:relative;
+left:-105px;
+
+} 
+.banner-img{height:450px;} 
+.footer-section{text-align: center;
+height:1350px;}
+}
+
+
